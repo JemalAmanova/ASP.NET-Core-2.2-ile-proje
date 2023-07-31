@@ -1,0 +1,210 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.WebUI\\BlogApp.WebUI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+        "projectName": "BlogApp.Data",
+        "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj",
+        "packagesPath": "C:\\Users\\jemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj",
+        "projectName": "BlogApp.Entity",
+        "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj",
+        "packagesPath": "C:\\Users\\jemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Core": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.WebUI\\BlogApp.WebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.WebUI\\BlogApp.WebUI.csproj",
+        "projectName": "BlogApp.WebUI",
+        "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.WebUI\\BlogApp.WebUI.csproj",
+        "packagesPath": "C:\\Users\\jemal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.WebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\jemal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj": {
+                "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Data\\BlogApp.Data.csproj"
+              },
+              "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj": {
+                "projectPath": "C:\\Users\\jemal\\source\\repos\\BlogApp\\BlogApp.Entity\\BlogApp.Entity.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "WebSharp.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

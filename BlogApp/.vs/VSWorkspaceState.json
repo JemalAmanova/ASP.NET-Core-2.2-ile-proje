@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BlogApp.WebUI",
+    "\\BlogApp.WebUI\\ViewComponents",
+    "\\BlogApp.WebUI\\Views",
+    "\\BlogApp.WebUI\\Views\\Category",
+    "\\BlogApp.WebUI\\Views\\Shared",
+    "\\BlogApp.WebUI\\Views\\Shared\\Components",
+    "\\BlogApp.WebUI\\Views\\Shared\\Components\\CategoryMenu",
+    "\\BlogApp.WebUI\\wwwroot",
+    "\\BlogApp.WebUI\\wwwroot\\img"
+  ],
+  "SelectedNode": "\\BlogApp.sln",
+  "PreviewInSolutionExplorer": false
+}
